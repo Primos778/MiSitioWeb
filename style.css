@@ -1,3 +1,22 @@
+h1 {
+    font-size: 24px; /* Tamaño de fuente para encabezados */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    color: #333; /* Color del texto */
+}
+p {
+    font-size: 16px; /* Tamaño de fuente para párrafos */
+    line-height: 1.5; /* Espaciado entre líneas */
+}
+
+a {
+    color: #0074d9; /* Color de los enlaces */
+    text-decoration: none; /* Elimina la subrayado por defecto */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor sobre los enlaces */
+}
+
 /* Estilos para la barra de navegación */
 .navbar {
     background-color: #333;
@@ -10,3 +29,24 @@
 }
 
 /* Otros estilos según tus preferencias */
+.btn {
+    background-color: #ff5733; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border: none; /* Quita el borde del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.btn {
+    background-color: #ff5733; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border: none; /* Quita el borde del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.btn:hover {
+    background-color: #e64a19; /* Color de fondo al pasar el cursor sobre el botón */
+}
